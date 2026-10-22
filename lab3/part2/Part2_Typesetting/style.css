@@ -1,0 +1,133 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  border-bottom: 3px solid #aa6666;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 15px 0 20px;
+  color: #000;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #000;
+}
+
+/* Main layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 0;
+}
+
+/* Main content */
+
+section p {
+  text-indent: 15px;
+  margin: 0 0 12px;
+}
+
+section h2:not(:first-child) {
+  margin-top: 14px;
+}
+
+ul,
+ol {
+  padding-left: 25px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+li {
+  padding-left: 0;
+}
+
+/* Links */
+
+a {
+  color: #aa6666;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #773333;
+  text-decoration: none;
+}
+
+/* Top courses */
+
+aside h2 {
+  text-align: center;
+}
+
+aside ul {
+  margin-top: 8px;
+}
+
+/* Navigation buttons */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 8px;
+}
+
+nav a {
+  display: block;
+  border: 1px solid #ddbbbb;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #aa6666;
+  background-color: #fff;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #f5eeee;
+}
+
+/* Footer */
+
+footer {
+  border-top: 3px solid #aa6666;
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  padding: 10px 0;
+}
